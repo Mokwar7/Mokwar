@@ -1,0 +1,18 @@
+.fotter {
+    background-color: rgb(18, 18, 18);
+    width: 100vw;
+    max-width: 2560px;
+    height: 100%;
+}
+.fotcont {
+    color: rgb(154, 154, 154);
+    padding-top: 10px;
+    font-size: 12px;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 90%;
+    padding-bottom: 20px;
+}
+.fp {
+    padding-top: 10px;
+}

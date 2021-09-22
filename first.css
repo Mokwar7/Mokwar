@@ -1,0 +1,82 @@
+
+.first {
+    max-width: 2560px;
+    height: 100%;
+    background-color: #151513;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.f {
+    max-width: 1260px;
+    width: 80%;
+    min-width: 320px;
+    height: 100%;
+    justify-content: center;
+}
+.ideal {
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: 60px;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition: 0.6s;
+    transform: translate(0, 60%);
+}
+.ideal.activ {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+.begin {
+    color: rgb(215, 215, 215);
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    transform: translate(0, 60%);
+    transition: 0.6s;
+    transition-delay: 0.4s;
+    opacity: 0;
+}
+.begin.activ {
+    transform: translate(0, 0%);
+    opacity: 1;
+}
+.f_keyboard {
+    width: 100%;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    transform: translate(0, 40px);
+    transition: 0.8s;
+    transition-delay: 0.6s;
+    opacity: 0;
+}
+.f_keyboard.activ {
+    transform: translate(0, 0%);
+    opacity: 1;
+}
+.f a {
+    text-decoration: none;
+}
+
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    .f {
+        width: 95vw;
+    }
+    .ideal {
+        font-size: 30px;
+    }
+    .begin {
+        font-size: 18px;
+        padding-bottom: 130px;
+    }
+    .f_keyboard {
+        width: 95vw;
+        padding-bottom: 90px;
+        transform: translate(0, 90px);
+    }
+}
